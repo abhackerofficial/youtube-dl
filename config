@@ -1,0 +1,5 @@
+--no-mtime
+--embed-metadata
+--restrict-filenames
+-P "/data/data/com.termux/files/home/storage/shared/Youtube-dl/"
+-o "%(title).30s.%(ext)s"
